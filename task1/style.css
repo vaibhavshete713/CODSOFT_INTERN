@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'nos';
+    src: url('fonts/OneDirection.ttf') format('truetype');
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.paragraph2 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'nos', sans-serif;
+    color: white;
+}
+
+.menu-bar {
+    text-align: center;
+    background-color: #000;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    color: floralwhite;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar ul li {
+    font-family: Impact, Charcoal, sans-serif;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu-bar ul li:hover {
+    background: floralwhite;
+    color: #000;
+    border-radius: 3px;
+}
+
+.paragraph5 {
+    font-size: 20px;
+    font-family: Courier, monospace;
+    margin: 30px;
+    color: rgb(218, 241, 16);
+}
+
+.lets-go-btn {
+    color: rgb(5, 5, 5);
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* Consider using auto margins for centering instead of negative margin */
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.lets-go-btn:hover {
+    background: rgb(54, 1, 1);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 3rem;
+    gap: 1px;
+    margin-top: 0;
+    line-height: 0;
+}
+
+.icons a {
+    margin-right: 75px;
+    transition: transform 0.3s ease;
+}
+
+.icons a:hover {
+    transform: scale(1.5);
+}
+
+.footer {
+    background-color: black;
+    margin-top: 28%;
+}
+
+.p1 {
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+}
